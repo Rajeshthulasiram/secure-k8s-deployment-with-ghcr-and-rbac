@@ -29,6 +29,18 @@ kubectl apply -f k8s/role-rbac.yaml
 3. Deploy Application
 kubectl apply -f k8s/deployment.yaml
 
+###
+🏆 Now Your Project Is Legit
+You can now confidently list this in your CV as:
+Secure Kubernetes Deployment using GHCR, ServiceAccounts, and RBAC
+
+📌 Highlights:
+Pulled private container image from GHCR using imagePullSecrets
+Created a custom ServiceAccount with minimal RBAC permissions
+Secured workload identity and automated access to private registries
+Debugged and resolved ImagePullBackOff issue using kubectl describe, token scopes, and namespace scoping
+###
+
 ### 
 💼 On Your CV or GitHub
 Project: k8s-ghcr-private-deployment
