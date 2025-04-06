@@ -1,0 +1,14 @@
+🧠 How to Present in CV
+Project: Secure Kubernetes Deployment using GHCR and RBAC
+
+Description:
+Deployed a Kubernetes application using a private image from GitHub Container Registry (GHCR)
+Configured ServiceAccount with imagePullSecrets to securely access private images
+Applied RBAC to restrict permissions for the deployment workload
+Debugged and resolved ImagePullBackOff issues by analyzing pod events and access scopes
+Ensured secret isolation and namespace-level access control using best practices
+
+💬 In Interviews, Say:
+“I created a secure deployment pipeline using Kubernetes where my pod pulled a private container image from GHCR using imagePullSecrets linked to a ServiceAccount. 
+I hit an ImagePullBackOff issue due to token scopes and fixed it by adjusting the GitHub PAT, recreating the secret in the right namespace, 
+and using kubectl describe to analyze pod events.”
